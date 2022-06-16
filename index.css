@@ -1,0 +1,33 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(44, 44, 44); 
+    border-radius: 10px;
+  }
+  main{
+    width: 400px;
+    height: 100vh;
+    border: 4px solid black;
+  }
+ul{
+    width: 395px;
+    overflow-x: auto;
+    position: fixed;
+    font-weight: bold;
+}
+ul li.active a{
+    border-bottom: 2px solid white;
+    color:#fff;
+}
+ul li:hover a{
+  color: white;
+  border-bottom: 2px solid white;
+}
